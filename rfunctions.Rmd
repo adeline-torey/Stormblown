@@ -18,7 +18,7 @@ BiocManager::install("package name")
 
 ## To view code for function without having to specify package
 ```{r eval=FALSE}
-getAnywhere(function name)
+getAnywhere('function name')
 ```
 
 ## To only print code so that it is not executed

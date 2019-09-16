@@ -1,0 +1,28 @@
+---
+title: "rfunctions"
+author: "Adeline"
+date: "9/16/2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## R Functions
+
+This is a list of R functions that I have used in my project
+
+## To install package from Bioconductor
+```{r eval=FALSE}
+BiocManager::install("package name")
+```
+
+## To view code for function without having to specify package
+```{r eval=FALSE}
+getAnywhere(function name)
+```
+
+## To only print code so that it is not executed
+```{r eval=FALSE}
+{r eval=FALSE}
+```
+

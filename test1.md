@@ -11,4 +11,4 @@
   i.   Navigating to folder where repository is stored and editing with any text editor (Notepad, etc.)
   ii.  Clicking 'Show in Explorer' in GitHub Desktop and editing with any text editor
   iii. Clicking 'Open in Atom' in GitHub Desktop and editing with Atom
-*Save the file and view the changes in GitHub desktop, then commit and push to remote if desired.
+*Save the file and view the changes in GitHub desktop, then commit and push to remote if desired.*

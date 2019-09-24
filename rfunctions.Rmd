@@ -25,4 +25,7 @@ getAnywhere('function name')
 ```{r eval=FALSE}
 {r eval=FALSE}
 ```
-
+## To clear R environment
+```{r eval=FALSE}
+rm(list=ls())
+```

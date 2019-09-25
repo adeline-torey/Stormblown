@@ -11,12 +11,11 @@ qreport <- function(score){
          '2' = print("Poor"),
          '3' = print("Average"),
          '4' = print("Good"),
-         '5' = print("Very good")
-  )
+         '5' = print("Very good"))
   if (score >2){
-    message("Pass")
+    print("Pass")
   } else
-    message("Fail")
+    print("Fail")
 }
 
 ## Example

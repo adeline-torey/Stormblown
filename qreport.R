@@ -2,25 +2,24 @@
 # Quality report
 
 qreport <- function(score){
+  if(!is.numeric(score))
+    stop("'score' must be numeric")
+  if(score < 1 | score > 5)
+    stop("'score' only accepts input between 1-5")
   switch(score,
          '1' = print("Very poor"),
          '2' = print("Poor"),
          '3' = print("Average"),
          '4' = print("Good"),
-         '5' = print("Very good"),
-         cat(red("Invalid input. Accepts input between 1-5"))
-  )
-  if ( score >2){
+         '5' = print("Very good"))
+  if (score >2){
     print("Pass")
   } else
-    cat(red("Fail"))
+    print("Fail")
 }
 
-## to run function
+## Example
 
-score <- 1
+score <- 3 #integer between 1-5
 
 qreport(score)
-
-## improvements:
-### pass/fail condition to display error message for values other than 1-5

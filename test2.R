@@ -1,4 +1,4 @@
 x <- "hello"
-y <- "today is a great day"
+y <- "heute ist ein schoener Tag"
 x
 y

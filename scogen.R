@@ -3,9 +3,9 @@
 
 scogen <- function(marks){
   if(marks >= 81 & marks <= 100)
-    score <- 1
+    score <- 5
   if(marks >= 61 & marks <= 80)
-    score <- 2
+    score <- 4
   if(marks >= 41 & marks <= 60)
     score <- 3
   if(marks >= 21 & marks <= 40)
@@ -22,7 +22,7 @@ scogen(82)
 scogen(81)
 scogen(80)
 scogen(45)
+scogen(21)
 scogen(20)
 scogen(19)
-scogen(21)
 scogen(0)

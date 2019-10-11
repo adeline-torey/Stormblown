@@ -44,3 +44,10 @@ scorep <- function(marks){
 ## Example
 
 scorep(63) 
+
+## output
+## [1] "Good"
+## [1] "Pass"
+## [1] "Pass"
+
+## why is pass/fail returned twice?

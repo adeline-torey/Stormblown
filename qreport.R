@@ -20,6 +20,4 @@ qreport <- function(score){
 
 ## Example
 
-score <- 3 #integer between 1-5
-
-qreport(score)
+qreport(3) #integer between 1-5

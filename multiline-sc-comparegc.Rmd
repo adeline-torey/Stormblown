@@ -1,0 +1,32 @@
+---
+title: "10.23 - NanoTableM function comparisons"
+author: "Adeline"
+date: "10/23/2019"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Test1: Multiline single core - with GC vs without GC
+###   Observation: differences in lines 28 and 29 (expand and scroll right to view side-by-side)
+
+#### load `diffr`
+```{r}
+library(diffr)
+```
+
+#### bind files to file1 and file2
+```{r}
+file1 <- "D:\\Midnite Mansion\\Documents\\R Projects\\functions\\multiline-sc-withgc.R"
+file2 <- "D:\\Midnite Mansion\\Documents\\R Projects\\functions\\multiline-sc-withoutgc.R"
+```
+
+#### input function
+```{r}
+diffr(file1, file2, contextSize = 1, minJumpSize = 30, before = "multiline-sc-withgc", after = "multiline-sc-withoutgc")
+```
